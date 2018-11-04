@@ -1,12 +1,12 @@
 # New Raspbian Setup
----
 ## Basic
-sudo raspi-config
-     Advanced Options
-         A1 Expand Filesystem 
-sudo rpi-update
-sudo apt-get update
-sudo apt-get dist-upgrade
+---
+     sudo raspi-config
+        Advanced Options
+              A1 Expand Filesystem 
+     sudo rpi-update
+     sudo apt-get update
+     sudo apt-get dist-upgrade
 ---
 ## Static IP
     sudo nano /boot/cmdline.txt
