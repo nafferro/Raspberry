@@ -1,6 +1,7 @@
 # New Raspbian Setup
-## Basic
 ---
+## Basic
+
      sudo raspi-config
         Advanced Options
               A1 Expand Filesystem 
