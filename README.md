@@ -20,7 +20,7 @@
 ### Delete pi user
     sudo deluser pi
     sudo rm -rf /home/pi
-## Reconfigure locale in raspberry-pi
+### Reconfigure locale in raspberry-pi
     sudo nano /etc/locale.gen
         uncomment the line with en_US.UTF-8
     sudo locale-gen en_US.UTF-8
