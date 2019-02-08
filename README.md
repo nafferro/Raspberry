@@ -26,3 +26,9 @@
     sudo raspi-config
         Interfacing Options
         VNC > Yes
+
+## Reconfigure locale in raspberry-pi
+    sudo nano /etc/locale.gen
+        uncomment the line with en_US.UTF-8
+    sudo locale-gen en_US.UTF-8
+    sudo update-locale en_US.UTF-8
